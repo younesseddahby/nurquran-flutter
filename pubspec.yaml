@@ -1,0 +1,32 @@
+name: nur_quran
+description: "Nur Quran — offline Quran reader with Warsh & Hafs mushafs. Flutter rewrite of the Capacitor+React app (com.eddahby.quran)."
+publish_to: 'none'
+version: 2.4.0+24
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.0
+  share_plus: ^10.0.0
+  flutter_svg: ^2.0.0
+  material_ui: ^1.11.0
+  in_app_review: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/images/
+  fonts:
+    - family: AmiriQuran
+      fonts:
+        - asset: assets/fonts/AmiriQuran-Regular.ttf
